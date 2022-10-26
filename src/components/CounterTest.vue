@@ -5,11 +5,11 @@ const counter = useCounterStore()
 </script>
 
 <template>
-	<counterbtn>
+	<div>
 		<button @click="counter.increment">
 			click me to count up {{ counter.count }}
 		</button>
-	</counterbtn>
+	</div>
 </template>
 
 <style scoped></style>
